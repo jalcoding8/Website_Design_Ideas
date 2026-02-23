@@ -1,0 +1,489 @@
+/* Basic reset for your list */
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.info-top {
+    background-color:white;
+    width: 99.7%;
+  
+}
+
+.logo-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-left: 3px;
+    margin-bottom: 5px; 
+    margin-top: 5px;
+}
+
+.logo-container img  {
+    width: auto;
+    height: 1.75em;
+    mask-image: radial-gradient(circle, black 60%, transparent 95%);
+    -webkit-mask-image: radial-gradient(circle, black 60%, transparent 95%);
+    mix-blend-mode: multiply; /* This makes white pixels transparent */
+    filter: contrast(1.1) brightnes(1.05); 
+      
+}
+
+h1 {
+    font-family: "Moderne Sans", sans-serif;
+    font-size: xxxlarge;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color:white;
+   
+    color: black;
+    
+}
+
+
+header {
+    display: flex;
+    justify-content: space-;
+    align-items: center;
+    height: 67px;
+    width: 99.8%;
+    background-color: white;
+    padding-bottom: 5px;
+    padding-left: none;
+}
+
+.design {
+    font-size: 27px;
+    color:rgb(114, 111, 111);
+    font-weight: 800;
+    letter-spacing: 1.1px;;
+
+}
+
+.ideas {
+    font-family: "Moderne Sans", sans-serif;
+    font-size: 27px;
+    color:rgb(161, 167, 172);
+    font-weight: 400;
+    
+}
+
+
+nav {
+    width: 99%;
+    display: inline-block;
+    justify-content: space-between;
+    text-align: right;
+    margin-bottom: 11px;
+    margin-top: 9px;
+    padding-right: 10px;
+    
+    
+}
+
+nav span a {
+    color:rgb(105, 104, 104);
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 16px;
+   
+}
+
+
+h5 {
+    font-weight: lighter;
+    padding: 1rem;
+}
+
+
+
+
+
+  
+  
+  
+  
+
+.container p {
+    font-weight: lighter;
+    font-size: smaller;
+    padding-left: auto;
+    padding-right: 1.5rem;
+    text-align: left;
+    height: 200px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+.color {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    padding: 0px;
+    padding-left: 15px;
+    width: 99%;
+    height: 720px;
+    background-color: lightgrey;
+    
+    border: 2px solid #a2a2a6;
+}
+
+.colors h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.inner-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.examples {
+    width: 280px;
+    height: 280px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid #a2a2a6;
+    color: white;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, tomato, #8b0000);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    padding-top: 35px;
+    padding-right: 30px;
+    padding-left:20px;
+}
+
+
+.small-marble {
+    width: 80px !important;
+    height: 80px !important;
+   
+}
+
+.accent-row {
+    margin-top: 40px; 
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.cornflowerblue { background: radial-gradient(circle at 30% 30%, cornflowerblue, #3b5998); }
+.lightseagreen  { background: radial-gradient(circle at 30% 30%, lightseagreen, #005a5a); }
+.mediumslateblue { background: radial-gradient(circle at 30% 30%, mediumslateblue, #483d8b); }
+.cornsilk    { background: radial-gradient(circle at 30% 30%, cornsilk, #deb887); }
+.darkorange     { background: radial-gradient(circle at 30% 30%, darkorange, #8b4500); }
+
+.color-list {
+    padding: 2px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    width: 100%;               
+    color: white; 
+    gap: 12px;          
+    font-size: 0.9em;    
+}
+
+.circle-title {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.examples:nth-child(2) span, 
+.examples:nth-child(3) span {
+    font-family: Helvetica, sans-serif;
+    font-size: 0.85em;
+    font-weight: bold;
+}
+
+.css-skeuomorphism {
+    padding: 10px 5px 10px -5px;
+    font-size: 14px;
+    height: 170px;
+    width: 95%;
+    background-color: white; 
+    margin-right: 20px;
+}
+
+.css-skeuomorphism {
+    height: fit-content;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    width: 91.5%;
+    
+}
+
+/* END OF COLOR CONTAINER CONTENT*/
+
+.container {
+    border: 2px solid grey;
+    padding-top: 30px;
+    margin: 10px auto;
+    height: 1300px;
+    background-color: lightgrey;
+    width: 100%;
+  }
+
+.container h2 {
+    text-align: center;
+    
+    margin-bottom: 30px;;
+} 
+
+/* THE GOOGLE FONTS API AND HELVETICA*/
+
+  /* Selected Google api Fonts for the Fonts Section*/
+/* weight>: Use a value from 100 to 900 */
+/*Use a unique and descriptive class name*/
+
+
+.paper-sheet {
+    font-size: 17px;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.betania {
+    font-family: "Betania Patmos In", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bitcount  {
+    font-family: "Bitcount", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "CRSV" 0.5,
+      "ELSH" 0,
+      "ELXP" 0;
+}
+
+barlow-medium {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+        
+
+
+.montserrat  {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+  
+
+.bread-icon {
+    padding-bottom: 80px;
+    padding-top: 0px;
+    margin-left: 25px;
+}
+
+.breadcrumb {
+    display: flex;
+    flex-direction: row;
+    width: 94.4%;
+    list-style: none;
+    background-color: white;
+    padding: 0px;
+    
+    align-items: center;
+    margin-left: 39px;
+  
+}
+
+.breadcrumb li {
+    display: block;
+    width: auto;
+    content: ">";
+    padding-top: 20px;
+    padding-bottom: 21px;
+    padding-left: 4px;
+    padding-right: 4px;   
+}
+
+.breadcrumbs-paragraph {
+    background-color: white;
+    height: 174px;
+    width: 92.3%;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-right: 1px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    margin-right: 80px;
+    margin-left: 40px;
+    /*font-weight: bold;*/
+    font-size: 18px;
+}
+
+
+/* Style for the 'Parent' location */
+.location a {
+   color: lightseagreen;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+/* Add a separator 'chevron' after the location */
+
+.attribute::before {
+    content: ">";
+    margin: 0 10px;
+    color: green;
+}
+
+/* Style for the 'Attribute' current view */
+.attribute a {
+    color: brown;
+    text-decoration: none;
+}
+   
+/* 1. The Container for the 3 papers */
+.font-examples-row {
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.fonts-info {
+    background-color: #f0f0f0;
+    border: 3px #030303;
+    width: 92%;
+    height: 500px;
+    margin-top: 40px;
+    padding-right: 1px;
+    padding-left: 30px;
+    margin-right: 80px;
+    margin-left: 40px;
+    padding-top: 30px;
+    font-size: 14px;
+}
+
+
+
+/* 3. The Font Title on the paper */
+.font-title {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 51, 153, 0.2); /* A faint "ledger" line */
+    padding-bottom: 17px;
+    color: #333;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* This creates the actual 'folded' triangle */
+.paper-sheet {
+    background: white;
+    position: relative; /* This is the 'anchor' for the curl */
+    min-width: 220px;
+    padding: 30px;
+    box-shadow: 5px 5px 15px rgba(77, 75, 75, 0.1);
+    height: 270px;
+    /* This 'cuts' the corner so the background doesn't peek out */
+    border-radius: 4px;
+    overflow: hidden; 
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+/* This creates the actual 'folded' triangle */
+.paper-sheet::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    /* This creates the dark triangle shadow under the fold */
+    border-width: 0 30px 30px 0;
+    border-style: solid;
+    border-color: #ddd #f4f4f4 white white; 
+    
+    /* This adds a tiny shadow to the edge of the fold */
+    box-shadow: -2px 2px 3px rgba(0,0,0,0.1);
+}
+
+
+/* 5. The Styles */
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+
+.font-list {
+    display: flex;
+    flex-direction: column; 
+    gap: 12px;              
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+}
+
+.additional-info {
+    height: 270px;
+    width: 94.7%;
+    margin-left: 38px;
+    background-color: white;
+}
+
+.additional-info h3 {
+    text-align: center;
+    padding-top: 24px;
+    font-size: x-large;
+    padding-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.additional-info p {
+    
+    padding-top: 1px;
+    font-size: 17px;
+    padding-left: 21px;
+    padding-bottom: 0px;
+}
+
+
