@@ -163,7 +163,7 @@ h5 {
     color: white;
     border-radius: 50%;
     background: radial-gradient(circle at 30% 30%, tomato, #8b0000);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
     padding-top: 35px;
     padding-right: 30px;
     padding-left:20px;
@@ -287,7 +287,7 @@ h5 {
       "ELXP" 0;
 }
 
-barlow-medium {
+.barlow-medium {
     font-family: "Barlow", sans-serif;
     font-weight: 500;
     font-style: normal;
