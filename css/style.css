@@ -422,7 +422,7 @@ barlow-medium {
     position: relative; /* This is the 'anchor' for the curl */
     min-width: 220px;
     padding: 30px;
-    box-shadow: 5px 5px 15px rgba(77, 75, 75, 0.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
     height: 270px;
     /* This 'cuts' the corner so the background doesn't peek out */
     border-radius: 4px;
@@ -471,6 +471,7 @@ barlow-medium {
 }
 
 .additional-info h3 {
+    color: tomato;
     text-align: center;
     padding-top: 24px;
     font-size: x-large;
@@ -479,7 +480,8 @@ barlow-medium {
 }
 
 .additional-info p {
-    
+    color: tomato;
+    font-weight: bold;
     padding-top: 1px;
     font-size: 17px;
     padding-left: 21px;
