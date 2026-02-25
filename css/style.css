@@ -207,14 +207,12 @@ h5 {
 
 .css-skeuomorphism {
     font-family: "Montserrat", sans-serif;
-    font-weight: bolder;
+    font-weight: normal;
     padding: 5px 20px 20px 30px;
     font-size: 15px;
-    height: 170px;
-    width: 95%;
+    height: 175px;
     background-color: white; 
     margin-right: 20px;
-
     margin-left: 0px;
     width: 91.5%;
     
@@ -304,7 +302,6 @@ h5 {
     list-style: none;
     background-color: white;
     padding: 0px;
-    
     align-items: center;
     margin-left: 39px;
   
@@ -322,13 +319,13 @@ h5 {
 
 .breadcrumbs-paragraph {
     background-color: white;
-    height: 174px;
+    height: 177px;
     width: 92.3%;
-    margin-top: 25px;
+    margin-top: 20px;
     padding-top: 0px;
     padding-right: 1px;
     padding-left: 30px;
-    padding-bottom: 37px;
+    padding-bottom: 39px;
     margin-right: 80px;
     margin-left: 40px;
     font-family: "Montserrat", sans-serif;
@@ -458,8 +455,8 @@ h5 {
 }
 
 .additional-info h3 {
-    color: darkolivegreen;
-    font-weight: bold;
+    color: rgb(134, 109, 6);
+    font-weight: lighter;
     text-align: center;
     padding-top: 24px;
     font-size: x-large;
@@ -470,9 +467,9 @@ h5 {
 
 .additional-info p {
     font-family: "Montserrat", sans-serif;
-    font-weight: bolder;
-    color: darkolivegreen;
-    font-weight: 900;
+    font-weight: normal;
+    color: rgb(100, 81, 4);
+    font-weight: bold;
     padding-top: 1px;
     font-size: 17px;
     padding-left: 28px;
