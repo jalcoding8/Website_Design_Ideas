@@ -1,9 +1,15 @@
 
-# Description
+<img width="140" height="80" alt="HTML & CSS" src="https://tinyurl.com/5xtf69zh" />
+<br><br>
+
+
+# Description   
+
+
 
 ###  **Website Desgin Ideas** is a project encapsalating **HTML** elements and **CSS** properties suggestions for a webpage.
 
-####  The thrust of the project is to highlight the immense power of HTML and CSS to enhance and transform a webpage.
+####  The thrust of the project is to highlight the immense power of HTML and CSS with JS to enhance and transform a webpage.
   *  Show some of the many HTML elements available to structure, develop and fine-tune a webpage.
   *  Show some of the many CSS property design tools to trasnform colors, shapes, shadows, and images.
   *  The UX or viewer experience is given great consideration.
