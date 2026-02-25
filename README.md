@@ -1,10 +1,8 @@
 
 <img width="140" height="80" alt="HTML & CSS" src="HTML_CSS.jpeg" />
 
-<br><br>
 
 # Description   
-
 
 
 ###  **Website Desgin Ideas** is a project encapsalating **HTML** elements and **CSS** properties suggestions for a webpage.
