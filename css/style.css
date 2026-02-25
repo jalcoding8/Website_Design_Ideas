@@ -114,14 +114,6 @@ h5 {
     padding-top: 20px;
 }
 
-
-
-
-
-
-
-
-
 .color {
     display: flex;
     flex-direction: column;
@@ -234,15 +226,15 @@ h5 {
     border: 2px solid grey;
     padding-top: 30px;
     margin: 10px auto;
-    height: 1300px;
+    height: 1290px;
     background-color: lightgrey;
     width: 100%;
   }
 
 .container h2 {
     text-align: center;
-    
-    margin-bottom: 30px;;
+    margin-bottom: 30px;
+    padding-top: 0px;
 } 
 
 /* THE GOOGLE FONTS API AND HELVETICA*/
@@ -298,15 +290,6 @@ h5 {
     font-style: normal;
 }
 
-
-
-
-
-
-
-
-
-  
 
 .bread-icon {
     padding-bottom: 80px;
@@ -419,10 +402,10 @@ h5 {
     position: relative; /* This is the 'anchor' for the curl */
     min-width: 220px;
     padding: 30px;
-    background: linear-gradient(225deg, transparent 20px, #ffffff 21px);
+    /*background: linear-gradient(225deg, transparent 20px, #ffffff 21px);*/
     /*the aboveis mine thebelow is newGemini suggestion*/
-    /*background: linear-gradient(45deg, #ffffff 70%, #cccccc 71%, #f3f3f3 80%);*/
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    /*box-shadow: 0px 0px  rgba(0, 0, 0, 0.1);*/
+    box-shadow: 0 8px 6px -6px black;
     height: 270px;
     /* This 'cuts' the corner so the background doesn't peek out */
     border-radius: 4px;
@@ -439,6 +422,8 @@ h5 {
     top: 0;
     right: 0;
     filter: brightness(150%);
+    background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 50%, #bababa 100%);
+    filter: drop-shadow(-2px 2px 2px rgba(0,0,0,0.2));
     /* This creates the dark triangle shadow under the fold */
     border-width: 0 30px 30px 0;
     border-style: solid;
@@ -447,7 +432,7 @@ h5 {
     /* This adds a tiny shadow to the edge of the fold */
     
     /*box-shadow: -2px 2px 3px rgba(0,0,0,0.1);*/
-    filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.3));
+    
 }
 
 
