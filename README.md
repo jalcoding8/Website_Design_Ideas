@@ -1,5 +1,5 @@
 
-<img width="140" height="80" alt="HTML & CSS" src="https://tinyurl.com/5xtf69zh" />
+<img width="140" height="80" alt="HTML & CSS" src="HTML_CSS.jpeg" />
 <br><br>
 
 
