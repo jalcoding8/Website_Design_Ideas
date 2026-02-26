@@ -151,7 +151,7 @@ h5 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: 2px solid #a2a2a6;
+    border: 2px solid #b6b6c0;
     color: white;
     border-radius: 50%;
     background: radial-gradient(circle at 30% 30%, tomato, #8b0000);
@@ -279,8 +279,6 @@ h5 {
   }
   
         
-
-
 .montserrat  {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -331,6 +329,7 @@ h5 {
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
     font-size: 19px;
+    text-align: justify;
 }
 
 
@@ -455,7 +454,7 @@ h5 {
 }
 
 .additional-info h3 {
-    color: rgb(134, 109, 6);
+    color: rgb(184, 154, 33);
     font-weight: lighter;
     text-align: center;
     padding-top: 24px;
@@ -468,13 +467,14 @@ h5 {
 .additional-info p {
     font-family: "Montserrat", sans-serif;
     font-weight: normal;
-    color: rgb(100, 81, 4);
-    font-weight: bold;
+    color: rgb(156, 127, 9);
+    font-weight: normal;
     padding-top: 1px;
     font-size: 17px;
     padding-left: 28px;
     padding-bottom: 0px;
     font-weight: bold;
+    text-align: justify;
 }
 
 
