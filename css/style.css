@@ -378,51 +378,44 @@ h5 {
 
 
 
-/* 3. The Font Title on the paper */
+/* 3. The Font Title on the paper 
+MY ORIGINAL - BELOW IS BBBBB*/
 .font-title {
     display: block;
     font-weight: 600;
     font-size: 22px;
     margin-bottom: 15px;
-    /*border-bottom: 1px solid rgba(0, 51, 153, 0.2); /* A faint "ledger" line */
-    padding-bottom: 17px;
+    border-bottom: 1px solid rgba(0, 51, 153, 0.2); /*A faint "ledger" line*/ 
+    padding-bottom: 10px;
     color: #333;
     align-items: center;
     text-align: center;
 }
 
+/*BBBBBB TRYING FOR .FONT-TIITLE*/
 
-/* This creates the actual 'folded' triangle */
+
+/*My original css*/
 .paper-sheet {
-    background: white;
-    /*background-color: white;
-    /*background-image: repeating-linear-gradient(
-        #fff9f0,
-        #fff9f0 30px,
-        #a5e5e5 31px
-    );*/
+    background-color: white;
     line-height: 31px;
     padding-top: 30px;
-    position: relative; /* This is the 'anchor' for the curl */
+    position: relative; /*This is the 'anchor' for the curl */
     min-width: 220px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
     background-image: linear-gradient(225deg, transparent 20px, #ffffff 21px);
-
     padding: 30px;
-    /*background: linear-gradient(225deg, transparent 20px, #ffffff 21px);*/
-
-    /*box-shadow: 0px 0px  rgba(0, 0, 0, 0.1);*/
     box-shadow: 0 8px 6px -6px black;
     height: 315px;
-    /* This 'cuts' the corner so the background doesn't peek out */
     border-radius: 4px;
     overflow: hidden; 
     margin-right: 30px;
     margin-left: 10px;
     margin-top: 30px;
 }
+
 
 /* This creates the actual 'folded' triangle */
 .paper-sheet::before {
@@ -449,6 +442,7 @@ h5 {
 .bold { font-weight: bold; }
 .italic { font-style: italic; }
 
+/*MY ORIGINAL */
 .font-list {
     display: flex;
     flex-direction: column; 
@@ -459,6 +453,8 @@ h5 {
     font-size: 17px;
 }
 
+/*Bottom of page*/
+
 .additional-info {
     height: 270px;
     width: 94.7%;
@@ -467,26 +463,23 @@ h5 {
 }
 
 .additional-info h3 {
-    color: rgb(184, 154, 33);
-    font-weight: lighter;
+    color: black;
+    font-weight: 300;
     text-align: center;
     padding-top: 24px;
     font-size: x-large;
     padding-right: 20px;
     font-family: "Montserrat", sans-serif;
-    font-weight: bolder;
 }
 
 .additional-info p {
     font-family: "Montserrat", sans-serif;
-    font-weight: normal;
-    color: rgb(156, 127, 9);
-    font-weight: normal;
+    font-weight: 400;
+    color: black;
     padding-top: 1px;
     font-size: 17px;
     padding-left: 28px;
     padding-bottom: 0px;
-    font-weight: bold;
     text-align: justify;
 }
 
