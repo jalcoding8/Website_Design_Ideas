@@ -409,6 +409,10 @@ h5 {
     padding-right: 30px;
     padding-bottom: 30px;
     background-image: linear-gradient(225deg, transparent 20px, #ffffff 21px);
+
+    padding: 30px;
+    /*background: linear-gradient(225deg, transparent 20px, #ffffff 21px);*/
+
     /*box-shadow: 0px 0px  rgba(0, 0, 0, 0.1);*/
     box-shadow: 0 8px 6px -6px black;
     height: 315px;
