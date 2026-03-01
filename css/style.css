@@ -224,7 +224,7 @@ h5 {
     border: 2px solid grey;
     padding-top: 30px;
     margin: 10px auto;
-    height: 1290px;
+    height: 1300px;
     background-color: black;
     width: 100%;
   }
@@ -460,7 +460,8 @@ MY ORIGINAL - BELOW IS BBBBB*/
     color: black;
     font-weight: 300;
     text-align: center;
-    padding-top: 24px;
+    padding-top: 25px;
+    padding-bottom: 0px;
     font-size: x-large;
     padding-right: 20px;
     font-family: "Montserrat", sans-serif;
@@ -470,10 +471,10 @@ MY ORIGINAL - BELOW IS BBBBB*/
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     color: black;
-    padding-top: 1px;
+    padding-top: 0px;
     font-size: 17px;
     padding-left: 28px;
-    padding-bottom: 0px;
+    margin-bottom: 10px;
     text-align: justify;
 }
 
