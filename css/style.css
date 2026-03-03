@@ -236,11 +236,11 @@ h5 {
     color: white;
 } 
 
-/* THE GOOGLE FONTS API AND HELVETICA*/
+/* THE GOOGLE FONTS API AND WINDOWS HELVETICA*/
 
-  /* Selected Google api Fonts for the Fonts Section*/
+/* Selected Google api Fonts for the Fonts Section*/
 /* weight>: Use a value from 100 to 900 */
-/*Use a unique and descriptive class name*/
+/*Use a unique and descriptive class name, as suggested by Google, I did not*/
 
 
 .paper-sheet {
@@ -341,7 +341,7 @@ h5 {
    text-decoration: none;
 }
 
-/* Add a separator 'chevron' after the location */
+/* Add a separator 'chevron' after the locations */
 
 .attribute::before {
     content: ">";
@@ -355,7 +355,7 @@ h5 {
     text-decoration: none;
 }
    
-/* 1. The Container for the 3 papers */
+/* The Container for the 3 paper sheets */
 .font-examples-row {
     display: flex;
     justify-content: space-around; 
@@ -379,7 +379,7 @@ h5 {
 
 
 
-/* 3. The Font Title on the paper 
+/* The Font Title on the paper 
 MY ORIGINAL - BELOW IS BBBBB*/
 .font-title {
     display: block;
@@ -395,8 +395,6 @@ MY ORIGINAL - BELOW IS BBBBB*/
 
 /*BBBBBB TRYING FOR .FONT-TIITLE*/
 
-
-/*My original css*/
 .paper-sheet {
     background-color: white;
     line-height: 31px;
@@ -416,6 +414,7 @@ MY ORIGINAL - BELOW IS BBBBB*/
 
 
 /* This creates the actual 'folded' triangle */
+/* Many iteration combinations were tried */
 .paper-sheet::before {
     content: "";
     position: absolute;
@@ -432,11 +431,10 @@ MY ORIGINAL - BELOW IS BBBBB*/
 }
 
 
-/* 5. The Styles */
+/* The Styles */
 .bold { font-weight: bold; }
 .italic { font-style: italic; }
 
-/*MY ORIGINAL */
 .font-list {
     display: flex;
     flex-direction: column; 
