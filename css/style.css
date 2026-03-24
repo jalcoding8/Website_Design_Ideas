@@ -404,6 +404,7 @@ MY ORIGINAL - BELOW IS BBBBB*/
     border: 1px solid #efefef;
     height: 315px;
     border-radius: 4px;
+    /*corner-shape: round;*/
     overflow: hidden; 
     margin-right: 30px;
     margin-left: 10px;
