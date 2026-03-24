@@ -9,7 +9,7 @@
 
 ####  The thrust of the project is to highlight the immense power of HTML and CSS with JS to enhance and transform a webpage.
   *  Show some of the many HTML elements available to structure, develop and fine-tune a webpage.
-  *  Show some of the many CSS property design tools to trasnform colors, shapes, shadows, and images.
+  *  Show some of the many CSS property design tools to transform colors, shapes, shadows, and images.
   *  The UX or viewer experience is given great consideration.
   *  Color/Design and Typography are at the core.
 
