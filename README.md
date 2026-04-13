@@ -28,7 +28,7 @@
    *  This project uses HTML5 and CSS3
    *  The README.md utilized the Markdown language syntax and includes an image of the favicon
    *  This project was completed in Visual Studio Code, and Bash Terminal.
-   * [Click here to view](https://jalcoding8.github.io/Website_Design_Ideas/)
+   * [Click here to view](https://jalcoding8.github.io/website-design-ideas/)
      
  
    
